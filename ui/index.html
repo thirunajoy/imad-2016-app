@@ -10,11 +10,21 @@
 </head>
 <style>
 body{
-	background:url("http://freephotos.atguru.in/hdphotos/cute-animal-wallpapers/puppies-cute-animal-background-hd-wallpaper.jpg");
+	background-position:center;
 	background-repeat:no-repeat;
-	background-size: 100%;
+    background-attachment:fixed;
+	background:url("http://freephotos.atguru.in/hdphotos/cute-animal-wallpapers/puppies-cute-animal-background-hd-wallpaper.jpg");
+	background-size:110%;
 	overflow-y:auto;
 }
+
+.img-circle{
+	position: absolute;
+    left: 50px;
+    top: 35px;
+}
+
+
 .center-align{
 text-align:center;
 }
@@ -24,11 +34,6 @@ h2.love {
     top: 210px;
 }
 
-
-
-
-
-
 h2.font-head{
 	color: #b797b8;
 	font-size: 30px;
@@ -37,10 +42,19 @@ h2.font-head{
 .back-image{
 	}
 h2.about{
-	color: #b797b8;
+	position: absolute;
+    left: 50px;
+    top: 400px;
+	
+	color:darkblue;
 	font-size:26px !important;
+	font-family:cursive;
 }
 h2.comment{
+	
+	position: absolute;
+    left: 600px;
+    top: 600px;
 color:#b797b8;}
 p{
 font-size: 21px;
@@ -50,15 +64,38 @@ width:1200px;
 .box{
 }
 .input-box{
-width:800px;
-height:32px;
-word-break:break-all;
+
+position: absolute;
+    left: 350px;
+    top: 700px;
+	width: 800px;
+	background: transparent url('images/bg.jpg') no-repeat;
+
+	
+	height:50px;
+	
+	border:2px;
+	padding:4px 8px;
+	margin-bottom:1px;
+
 }
 .input-box2{
-width:800px;
-height:100px;
-word-break:break-all;
+	position: absolute;
+    left: 350px;
+    top: 770px;
+	
+width: 800px;
+	background: transparent  no-repeat;
+
+	
+	height:100px;
+	
+	border:2px;
+	border-color:black;
+	padding:4px 8px;
+	margin-bottom:1px;
 }
+
 .but-size:hover{
 background-color:white;
 color:#69226b;
@@ -67,8 +104,8 @@ border-color:#69226b;
 .but-size{
 
 position: absolute;
-    left: 580px;
-    top: 700px;
+    left: 600px;
+    top: 1000px;
 
 
 background-color:#69226b;
@@ -90,18 +127,25 @@ color:#b97b8;
   <img src="https://s15.postimg.org/exo35zbjv/joolo_2.jpg" class="img-circle" alt="Cinque Terre" width="200" height="256"></div>
 
   
-  <h2 class="about">hey this is thirunajoy,IT guy,made in india,shytype,lier</br>dancer,Web roamer,Hardcore music lisentner</br>,snoozy boy,social media lover,living my life bit selfish</br>nd fun.I'll never say no to pizza and I'm always up for an adventure :)</h2>
-  <h2 class ="love"><img width="165" height="165" src ="http://www.shabbyblogs.com/storage/old/ShabbyBlogsLiveLifeLove.gif"></h2>
+  <h2 class="about"><i>hey this is thirunajoy,IT guy,made in india,shytype,lier</br>					dancer,Web roamer,Hardcore music lisentner</br>,snoozy boy,social media lover,living my life bit selfish</br>nd fun.I'll never say no to pizza and I'm always up for an adventure :)</h2></i>
+ <h2 class ="love"><img width="165" height="165" src ="http://www.shabbyblogs.com/storage/old/ShabbyBlogsLiveLifeLove.gif"></h2>
   <div class="center-align">
   <h2 class="comment"><img src="http://www.shabbyblogs.com/storage/old/ShabbyBlogsComments.jpg"></h2>
   <div class="box2">
-  <input type="text" class="input-box" placeholder="Enter Your Name"/><br><br>
+  <input type="text" class="input-box" style="font-family:cursive"  placeholder="Enter Your Name" style="color:red" /><br>
+  
+  
+  <h1>  </h1>
+  
   <input type="text" class="input-box2" placeholder="Enter Your Comment"/><br><br>
   <button type="button" class="but-size">Submit</button>
   </div>
 </div>
 
 </body>
-<img src="https://media.giphy.com/media/q9ryrucIZHy24/giphy.gif" class ="img-circle" width ="300" height="258"></img>
+
+
+
 
 </html>
+
